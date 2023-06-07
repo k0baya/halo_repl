@@ -62,4 +62,4 @@ export HALO_WORK_DIR="/home/runner/${REPL_SLUG}/.halo2"
 export HALO_EXTERNAL_URL="https://${REPL_SLUG}.${REPL_OWNER}.repl.co"
 export HALO_SECURITY_INITIALIZER_SUPERADMINUSERNAME="${USERNAME}"
 export HALO_SECURITY_INITIALIZER_SUPERADMINPASSWORD="${PASSWORD}"
-java -jar halo_${tag}.jar
+java -jar -Duser.timezone=Asia/Shanghai halo_${tag}.jar
