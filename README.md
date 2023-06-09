@@ -1,5 +1,5 @@
-# halo_repl
-Deploy halo on Replit.
+# [halo](https://github.com/halo-dev/halo)_repl
+Deploy [halo](https://docs.halo.run/) on [Replit](https://replit.com).
 ## usage
 Blank Repl
 ```bash
